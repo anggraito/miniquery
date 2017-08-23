@@ -23,6 +23,7 @@
 
     <button type="button" class="button-sweet" onclick="demoSweetSelector()">SweetSelector</button>
     <button type="button" name="button-dom" onclick="demoDOM()">DOM</button>
+    <!-- <button type="button" name="button-dom" onclick="demo()">Show</button> -->
     <button type="button" name="button-event" onclick="demoEventDispatcher()">EventDispatcher</button>
     <button type="button" name="button-ajax" onclick="demoAjax()">AJAX Request</button>
     <button type="button" name="button-alias" onclick="demoMiniQuery()">Namespace miniquery</button>
@@ -59,6 +60,11 @@
       DOM.removeClass('.klass', 'shaded')
       DOM.addClass('.klass', 'shaded')
     }
+
+    ////test show
+    // function demo(){
+    //   DOM.show('.klass')
+    // }
 
     function demoEventDispatcher() {
       EventDispatcher.on('.klass', 'click', function() {
